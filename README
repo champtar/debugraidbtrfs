@@ -1,0 +1,15 @@
+Running a Fedora 28 install system
+
+# uname -a
+Linux servmaison 4.16.3-301.fc28.x86_64 #1 SMP Mon Apr 23 21:59:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+# btrfs --version
+btrfs-progs v4.15.1
+
+# btrfs inspect dump-tree -t root /dev/sda2 > dump-tree-root-sda2
+# btrfs inspect dump-tree -t root /dev/sdb2 > dump-tree-root-sdb2
+# btrfs inspect dump-tree -b 6020235362304 /dev/sda2 > dump-tree-block-sda2
+# btrfs inspect dump-tree -b 6020235362304 /dev/sdb2 > dump-tree-block-sdb2
+# btrfs check --readonly /dev/sda2 # btrfs-check-ro-sda2
+# btrfs check --readonly /dev/sdb2 # btrfs-check-ro-sdb2
+

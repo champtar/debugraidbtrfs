@@ -1,0 +1,42 @@
+checking extents
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad key ordering 63 64
+bad block 6020235362304
+ERROR: errors found in extent allocation tree or chunk allocation
+checking free space cache
+there is no free space entry for 6011561750528-5942842273792
+there is no free space entry for 6011561750528-6012044050432
+cache appears valid but isn't 6010970308608
+there is no free space entry for 6015529828352-5946810351616
+there is no free space entry for 6015529828352-6016339017728
+cache appears valid but isn't 6015265275904
+there is no free space entry for 6139476623360-6070757146624
+there is no free space entry for 6139476623360-6139852881920
+cache appears valid but isn't 6138779140096
+ERROR: errors found in free space cache
+Checking filesystem on /dev/sda2
+UUID: 4917db5e-fc20-4369-9556-83082a32d4cd
+found 1321120776195 bytes used, error(s) found
+total csum bytes: 0
+total tree bytes: 1163182080
+total fs tree bytes: 0
+total extent tree bytes: 1161740288
+btree space waste bytes: 290512355
+file data blocks allocated: 618135552
+ referenced 618135552
